@@ -4,17 +4,66 @@ section{
     height: 80vh;
     overflow:hidden;
 }
-
 body{
-    background-color: aquamarine;
     text-align: center;
-}
+    height: 80vh;
+    overflow:hidden;   
+  }
 footer{
-    background-color: red;
     text-align: center;
     height: 20vh;
     overflow:hidden;
+    background-color: grey;
 }
 .container{
     padding: 2em;
 }
+
+/* TYPOGRAPHY */
+
+html,
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: cal(13px + 1 vw)
+}
+
+h1{
+    font-weight: 1500;
+    font-size: 3.5rem;
+    color: grey;  
+}
+p {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #C4BEBE;
+}
+h3{
+    font-size:1.5rem;
+    color:orange;
+}
+
+
+  footer a {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #3A3434;
+  }
+
+  section a {
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+
+
+  /* degradar fondo */
+
+  section{
+    background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, ‎grey); /* For Opera 11.1 to 12.0 */
+    

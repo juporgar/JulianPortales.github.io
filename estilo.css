@@ -3,17 +3,15 @@
 section{
     height: 80vh;
     overflow:hidden;
-}
-body{
     text-align: center;
-    height: 80vh;
-    overflow:hidden;   
-  }
+}
+
 footer{
     text-align: center;
     height: 20vh;
     overflow:hidden;
-    background-color: grey;
+    width: 100%;
+ 
 }
 .container{
     padding: 2em;
@@ -30,13 +28,13 @@ body{
 h1{
     font-weight: 1500;
     font-size: 3.5rem;
-    color: grey;  
+    color: #201B19;  
 }
 p {
     text-align: center;
     line-height: 2;
     font-size: 1.5rem;
-    color: #C4BEBE;
+    color: #302E2D;
 }
 h3{
     font-size:1.5rem;
@@ -54,16 +52,30 @@ h3{
     color: #3A3434;
   }
 
-  section a {
-    font-weight: 700;
-    color: #FFFFFF;
+  footer a:hover{
+      color: #4682B4;
   }
 
+  section a {
+    font-weight: 700;
+    color: red;
+  }
 
-
+  section a:hover {
+    font-weight: 700;
+    color: blue;
+  }
   /* degradar fondo */
 
   section{
-    background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black, ‎grey); /* For Opera 11.1 to 12.0 */
+background: linear-gradient(0deg, cyan, white 5%);
+  }
+
+  footer{
+    background: linear-gradient(0deg, #AFEEEE, cyan 70%);
+      }
     
+  body{
+    margin: 0;
+    padding: 0;
+  }

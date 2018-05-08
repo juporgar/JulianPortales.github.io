@@ -1,0 +1,13 @@
+
+// Declarations
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+var camelCase =studlyCapVar;
+var camelCase =titleCaseOver;

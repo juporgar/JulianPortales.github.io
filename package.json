@@ -1,0 +1,25 @@
+{
+  "name": "julianportales.github.io",
+  "version": "1.0.0",
+  "description": "Pagina web",
+  "main": "index.html",
+  "scripts": {
+    "test": "asdas",
+    "start": "live-server",
+    "deploy": "git push origin master",
+    "toTeacher": "git push asignment master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juporgar/JulianPortales.github.io.git"
+  },
+  "author": "Julian Portalés",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juporgar/JulianPortales.github.io/issues"
+  },
+  "homepage": "https://github.com/juporgar/JulianPortales.github.io#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
